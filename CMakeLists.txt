@@ -23,6 +23,9 @@ if(BUILD_PLAYGROUNDS)
 	
 	add_executable(debug_array_algorithms src/playground/debug_array_algorithms.cpp)
 	target_include_directories(debug_array_algorithms PRIVATE ${CMAKE_SOURCE_DIR}/include)
+
+  add_executable(debug_linked_list src/playground/debug_linked_list.cpp)
+  target_include_directories(debug_linked_list PRIVATE ${CMAKE_SOURCE_DIR}/include)
 endif()
 
 # Tests
